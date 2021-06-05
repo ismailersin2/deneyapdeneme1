@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sayi;
+    cin>>sayi;
+
+    if (sayi>=0){
+        if(sayi%3==0)
+            cout<<"sayi 3 ile tam bolunur."<<endl;
+        else
+            cout<<"sayi 3 ile tam bolunmez."<<endl;
+    }
+    else
+        cout<<"negatif sayi girdiniz."<<endl;
+
+    return 0;
+}
